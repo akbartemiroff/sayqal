@@ -1,0 +1,17 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#f3f4f6"/>
+  
+  <!-- Plate -->
+  <circle cx="200" cy="150" r="120" fill="#ffffff" stroke="#e5e7eb" stroke-width="4"/>
+  
+  <!-- Salad elements -->
+  <circle cx="160" cy="100" r="20" fill="#84cc16"/>
+  <circle cx="200" cy="120" r="25" fill="#22c55e"/>
+  <circle cx="240" cy="100" r="15" fill="#84cc16"/>
+  <circle cx="170" cy="150" r="18" fill="#f97316"/>
+  <circle cx="220" cy="160" r="22" fill="#ef4444"/>
+  <circle cx="180" cy="190" r="15" fill="#84cc16"/>
+  <circle cx="230" cy="180" r="20" fill="#84cc16"/>
+  
+  <text x="200" y="260" font-family="Arial" font-size="18" text-anchor="middle" fill="#4b5563">Салат</text>
+</svg> 

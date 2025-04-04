@@ -1,0 +1,27 @@
+{
+  "name": "sayqal",
+  "version": "1.0.0",
+  "homepage": "https://akbartemiroff.github.io/sayqal",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d out"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Restaurant Sayqal website",
+  "dependencies": {
+    "autoprefixer": "^10.4.19",
+    "next": "^14.2.3",
+    "postcss": "^8.4.38",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwindcss": "^3.4.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}

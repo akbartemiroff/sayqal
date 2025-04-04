@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --primary: #F5E1C8;
+  --primary-dark: #d4b59e;
+  --secondary: #800020;
+  --dark: #800020;
+  --light: #F5E1C8;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: var(--light);
+  background-color: var(--dark);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--light);
+  font-family: 'Arial', sans-serif;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 20px 0;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideInFromRight {
+  from { opacity: 0; transform: translateX(50px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes slideInFromLeft {
+  from { opacity: 0; transform: translateX(-50px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.8s ease-in-out forwards;
+}
+
+.animate-slide-right {
+  animation: slideInFromRight 0.8s ease-in-out forwards;
+}
+
+.animate-slide-left {
+  animation: slideInFromLeft 0.8s ease-in-out forwards;
+}
+
+.menu-item-transition {
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.menu-item-transition:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* Custom button styles */
+.btn-primary {
+  @apply px-6 py-3 bg-[#F5E1C8] text-[#800020] font-semibold rounded-md shadow-md hover:bg-[#d4b59e] transition-all duration-300 transform hover:scale-105;
+}
+
+.section-heading {
+  @apply text-3xl sm:text-4xl font-bold mb-4 relative;
+  color: var(--light);
+}
+
+.section-heading::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 3px;
+  background-color: var(--primary);
+}
+
+/* Menu tabs */
+.menu-tab {
+  @apply px-5 py-2 font-medium rounded-full text-sm transition-all duration-300;
+}
+
+.menu-tab.active {
+  @apply bg-[#F5E1C8] text-[#800020] shadow-md;
+}
+
+.menu-tab:not(.active) {
+  @apply bg-[#800020] text-[#F5E1C8] hover:bg-[#5c0017] border border-[#F5E1C8];
+}
+
+/* Restaurant specific styles */
+.uzbek-pattern {
+  background-image: url('/images/uzbek-pattern.svg');
+  background-size: 200px;
+  background-repeat: repeat;
+  opacity: 0.1;
+}
+
+/* Navigation styles */
+.nav-link {
+  @apply font-bold hover:underline;
+}
+
+/* Footer styles */
+footer {
+  background-color: var(--light);
+  color: var(--dark);
+  text-align: center;
+  padding: 15px;
+} 

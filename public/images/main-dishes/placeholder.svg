@@ -1,0 +1,19 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#f3f4f6"/>
+  
+  <!-- Plate -->
+  <circle cx="200" cy="150" r="120" fill="#ffffff" stroke="#e5e7eb" stroke-width="4"/>
+  
+  <!-- Main dish elements -->
+  <rect x="140" y="100" width="120" height="60" rx="10" fill="#f59e0b"/>
+  <rect x="160" y="170" width="80" height="30" rx="5" fill="#65a30d"/>
+  <circle cx="140" cy="100" r="15" fill="#ef4444"/>
+  <circle cx="260" cy="100" r="15" fill="#ef4444"/>
+  
+  <!-- Fork and knife -->
+  <rect x="100" y="80" width="10" height="120" rx="5" fill="#9ca3af"/>
+  <rect x="290" y="80" width="10" height="120" rx="5" fill="#9ca3af"/>
+  <rect x="270" y="80" width="40" height="10" rx="5" fill="#9ca3af"/>
+  
+  <text x="200" y="260" font-family="Arial" font-size="18" text-anchor="middle" fill="#4b5563">Основное блюдо</text>
+</svg> 

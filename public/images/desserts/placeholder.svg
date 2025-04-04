@@ -1,0 +1,21 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#f3f4f6"/>
+  
+  <!-- Plate -->
+  <circle cx="200" cy="160" r="100" fill="#ffffff" stroke="#e5e7eb" stroke-width="4"/>
+  
+  <!-- Cake/Dessert -->
+  <rect x="130" y="120" width="140" height="60" rx="5" fill="#fda4af"/>
+  <rect x="130" y="110" width="140" height="10" rx="2" fill="#f472b6"/>
+  
+  <!-- Decorations -->
+  <circle cx="160" cy="110" r="10" fill="#60a5fa"/>
+  <circle cx="200" cy="110" r="10" fill="#a78bfa"/>
+  <circle cx="240" cy="110" r="10" fill="#34d399"/>
+  
+  <!-- Cherry on top -->
+  <circle cx="200" cy="90" r="15" fill="#ef4444"/>
+  <rect x="195" y="60" width="10" height="30" rx="5" fill="#65a30d"/>
+  
+  <text x="200" y="260" font-family="Arial" font-size="18" text-anchor="middle" fill="#4b5563">Десерт</text>
+</svg>
