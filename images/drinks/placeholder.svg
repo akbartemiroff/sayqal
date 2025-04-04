@@ -1,0 +1,19 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#f3f4f6"/>
+  
+  <!-- Glass -->
+  <path d="M150,70 L250,70 L230,250 L170,250 Z" fill="#ffffff" stroke="#e5e7eb" stroke-width="4"/>
+  
+  <!-- Liquid -->
+  <path d="M155,90 L245,90 L228,230 L172,230 Z" fill="#0ea5e9"/>
+  
+  <!-- Straw -->
+  <rect x="195" y="50" width="10" height="150" rx="5" fill="#f97316"/>
+  
+  <!-- Ice cubes -->
+  <rect x="170" y="110" width="20" height="20" rx="3" fill="#ffffff" stroke="#e5e7eb" stroke-width="2"/>
+  <rect x="200" y="130" width="20" height="20" rx="3" fill="#ffffff" stroke="#e5e7eb" stroke-width="2"/>
+  <rect x="180" y="160" width="20" height="20" rx="3" fill="#ffffff" stroke="#e5e7eb" stroke-width="2"/>
+  
+  <text x="200" y="280" font-family="Arial" font-size="18" text-anchor="middle" fill="#4b5563">Напиток</text>
+</svg> 
