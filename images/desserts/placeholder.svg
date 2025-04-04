@@ -17,5 +17,5 @@
   <circle cx="200" cy="90" r="15" fill="#ef4444"/>
   <rect x="195" y="60" width="10" height="30" rx="5" fill="#65a30d"/>
   
-  <text x="200" y="260" font-family="Arial" font-size="18" text-anchor="middle" fill="#4b5563">Десерт</text>
+  <text x="200" y="260" font-family="Arial" font-size="18" text-anchor="middle" fill="#4b5563">Dessert</text>
 </svg>

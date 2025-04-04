@@ -15,5 +15,5 @@
   <rect x="290" y="80" width="10" height="120" rx="5" fill="#9ca3af"/>
   <rect x="270" y="80" width="40" height="10" rx="5" fill="#9ca3af"/>
   
-  <text x="200" y="260" font-family="Arial" font-size="18" text-anchor="middle" fill="#4b5563">Основное блюдо</text>
+  <text x="200" y="260" font-family="Arial" font-size="18" text-anchor="middle" fill="#4b5563">Main Dish</text>
 </svg> 
