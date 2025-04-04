@@ -15,5 +15,5 @@
   <rect x="200" y="130" width="20" height="20" rx="3" fill="#ffffff" stroke="#e5e7eb" stroke-width="2"/>
   <rect x="180" y="160" width="20" height="20" rx="3" fill="#ffffff" stroke="#e5e7eb" stroke-width="2"/>
   
-  <text x="200" y="280" font-family="Arial" font-size="18" text-anchor="middle" fill="#4b5563">Drink</text>
+  <text x="200" y="280" font-family="Arial" font-size="18" text-anchor="middle" fill="#4b5563">Напиток</text>
 </svg> 
